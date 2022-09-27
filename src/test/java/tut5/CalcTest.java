@@ -10,4 +10,9 @@ class CalcTest {
     void add() {
         assertEquals(0,new Calc().Add());
     }
+
+    @Test
+    void subtract() {
+        assertEquals(1,new Calc().subtract());
+    }
 }
