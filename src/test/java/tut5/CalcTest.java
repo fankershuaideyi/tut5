@@ -11,8 +11,5 @@ class CalcTest {
         assertEquals(0,new Calc().Add());
     }
 
-    @Test
-    void subtract() {
-        assertEquals(1,new Calc().subtract());
-    }
+
 }
